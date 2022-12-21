@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+p,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-weight: 100;
+  color: rgb(176, 175, 175);
+}
+
+.current {
+  border-left: 2px solid #5ff1d0;
+  color: #102546;
+}
+
+.work-bg {
+  background: linear-gradient(
+      to bottom,
+      rgb(2, 3, 50, 0.835),
+      rgb(8, 10, 46, 0.841)
+    ),
+    url(../src/assets/work.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hoverEff {
+  transform: translateY(-5px);
+}
