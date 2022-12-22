@@ -1,4 +1,3 @@
-import { current } from '@reduxjs/toolkit';
 import { AiFillCaretRight } from 'react-icons/ai';
 
 import React from 'react';
